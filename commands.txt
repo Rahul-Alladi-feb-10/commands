@@ -1,6 +1,8 @@
 MONGO
 	brew services start mongodb/brew/mongodb-community
-
+Mysql
+	http://127.0.0.1:5500/index.html
+	quit to exit
 CONDA
 Conda create -p venv python==3.10
 Conda activate venv
