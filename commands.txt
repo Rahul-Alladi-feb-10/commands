@@ -74,5 +74,14 @@ print(test2)
 project = Project.objects.get(title='Ecommerce Website')
 print(project.tags.all()) #to get all the tags of ecom website
 --------
+--do this if u want to pull develop changes to your feature branch and push the changes of your branch--
+git checkout develop
+git pull
+git checkout feature/name
+git rebase develop
+if u get any conflicts resolve them
+git add . the changes if u resolved any conflicts
+git rebase --continue
+git push --force origin feature/name
 
 
